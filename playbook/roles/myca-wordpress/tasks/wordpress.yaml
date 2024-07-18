@@ -1,0 +1,7 @@
+---
+- name: Init wordpress container
+  command: docker compose up -d wordpress
+  args:
+    chdir: /home/rocky/moji/myca/
+
+

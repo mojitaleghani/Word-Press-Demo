@@ -1,0 +1,7 @@
+---
+- name: Init Webserver container
+  command: docker compose up -d webserver
+  args:
+    chdir: /home/rocky/moji/myca/
+
+
