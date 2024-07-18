@@ -22,3 +22,9 @@
     - myca-cert
   tags:
     - cert
+#---
+- hosts: local
+  roles:
+    - init
+  tags:
+    - all

@@ -2,5 +2,5 @@
 - name: Init database container
   command: docker compose up -d db
   args:
-    chdir: /home/rocky/moji/myca/
+    chdir: /home/rocky/moji/myca/Word-Press-Demo/
 

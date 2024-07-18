@@ -2,6 +2,6 @@
 - name: Run certbot container
   command: docker compose up -d certbot
   args:
-    chdir: /home/rocky/moji/myca/
+    chdir: /home/rocky/moji/myca/Word-Press-Demo/
 
 

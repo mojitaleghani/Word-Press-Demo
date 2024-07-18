@@ -1,0 +1,15 @@
+---
+- name: Initiate all container
+  command: docker compose up -d
+  args:
+    chdir: /home/rocky/moji/myca/Word-Press-Demo/
+
+- name: Get IP info
+  uri:
+    url: https://ipinfo.io/ip
+    method: GET
+  register: login
+
+- name: Show result
+  debug:
+    var: login
